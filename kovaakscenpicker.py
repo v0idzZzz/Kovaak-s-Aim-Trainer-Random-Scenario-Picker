@@ -52,8 +52,8 @@ def launch_scenario(scenario_name):
                 os.startfile(steam_link)
 
                 # Wait for the game to initialize.
-                print("   Waiting 12 seconds for game to initialize...")
-                time.sleep(12)
+                print("   Waiting 3 seconds for game to initialize...")
+                time.sleep(3)
 
                 # Second command: This is received by the now-running game.
                 print("   Sending follow-up command to ensure scenario loads.")
